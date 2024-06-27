@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    background: url("images/agro.jpg") no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 4rem 0;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+.hero .btn {
+    background: #ff6f61;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#produtos {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.carousel {
+    display: flex;
+    overflow-x: scroll;
+    gap: 1rem;
+}
+
+.carousel-item {
+    min-width: 200px;
+    background: #f4f4f4;
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.carousel-item img {
+    max-width: 100%;
+    height: auto;
+    width: 150px; /* Largura fixa */
+    height: 150px; /* Altura fixa */
+    object-fit: cover; /* Para manter a proporção da imagem */
+    border-radius: 5px;
+}
+
+.carousel-item h3 {
+    margin: 0.5rem 0;
+}
+
+.carousel-item .btn-comprar {
+    background: #007bff;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 0.5rem 0;
+}
+
+.carousel-item .btn-comprar:hover {
+    background: #0056b3;
+}
+
+.carousel-item p {
+    margin-top: 0.5rem;
+}
+
+#sobre, #contato {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+#contato-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#contato-form label {
+    font-weight: bold;
+}
+
+#contato-form input, #contato-form textarea {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contato-form button {
+    background: #ff6f61;
+    color: #fff;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+}
+
+footer .social-icons {
+    margin-top: 1rem;
+}
+
+footer .social-icons a {
+    color: #fff;
+    margin: 0 0.5rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
